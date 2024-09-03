@@ -21,7 +21,7 @@ export function Header(props: Props) {
     props.onTaskCreated(task)
     setTitle("")
     };
-
+    let test = 0
     return(
         <div className='head'>
             <div className='logo'>
