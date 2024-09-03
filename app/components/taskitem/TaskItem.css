@@ -1,0 +1,16 @@
+.task{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    background-color: green;
+    margin: auto;
+    padding: 7px;
+    margin-top: 50px;
+}
+.item{
+    display: flex;
+    gap: 10px;
+}
+.ts{
+    text-decoration: line-through;
+}

@@ -1,0 +1,6 @@
+.tasks{
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    margin: auto;
+}
