@@ -8,9 +8,11 @@ interface Props {
 
 export function TaskStats(props: Props) {
     return(
-        <div className="tasks">
-            <TaskStatItem title="დავალებები" amount={String(props.total)}/>
-            <TaskStatItem title="დასრულებული" amount={`${props.completed}/${props.total}`}/>
+        <div className="title">
+            <div className="tasks">
+                <TaskStatItem title="დავალებები" amount={String(props.total)}/>
+                <TaskStatItem title="დასრულებული" amount={`${props.completed}/${props.total}`}/>
+            </div>
         </div>
     )
 }
