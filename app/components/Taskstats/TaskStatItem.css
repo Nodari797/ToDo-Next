@@ -1,3 +1,17 @@
 .item{
     display: flex;
 }
+.assignment{
+    color: #4EA8DE;
+    padding-bottom: 20px;
+}
+.pass{
+    width: Hug 41px;
+    height: 20px;
+    padding: 2px 8px 2px 8px;
+    gap: 10px;
+    border-radius: 9px 9px 9px 9px;
+    opacity: 0px;
+    background-color: #333333;
+    color: white;
+}

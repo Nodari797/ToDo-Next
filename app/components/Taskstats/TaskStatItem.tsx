@@ -7,8 +7,8 @@ interface Props{
 export function TaskStatItem({title, amount}: Props) {
     return(
         <div className="item">
-            <p>{title}</p>
-            <span>{amount}</span>
+            <p className="assignment">{title}</p>
+            <span className="pass">{amount}</span>
         </div>
     )
 }

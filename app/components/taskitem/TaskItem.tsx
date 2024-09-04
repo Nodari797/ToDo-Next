@@ -22,10 +22,9 @@ export function TaskItem({task, onDeleteClick, onTaskCompleted}: Props) {
                 {task.title}
                 </p>
             </div>
-            <button onClick={() => {
+            <img onClick={() => {
                 onDeleteClick(task)
-            }}
-            >Trash</button>
+            }} className="trash" src="/image/trash.svg" alt="" />
         </div>
     )
 }
